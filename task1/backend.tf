@@ -4,7 +4,7 @@ terraform {
     resource_group_name   = "newrgbyammar"
     storage_account_name  = "newsabyammar"
     container_name        = "tfstatefiles"
-    #key                  = "tf_state_file"
+    key                  = "tf_state_file"
   }
 }
 
